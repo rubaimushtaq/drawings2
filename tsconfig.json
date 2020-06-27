@@ -1,0 +1,27 @@
+{
+    "include": ["src", "types"],
+    "exclude": ["node_modules"],
+    "compilerOptions": {
+        "incremental": true,
+        "declaration": true,
+        "sourceMap": true,
+        "lib": ["ESNext", "DOM", "DOM.Iterable"],
+        "module": "esnext",
+        "target": "esnext",
+        "moduleResolution": "node",
+        "baseUrl": "./",
+        "paths": { "*": ["web_modules/.types/*"] },
+        "allowSyntheticDefaultImports": true,
+        "importsNotUsedAsValues": "error",
+        /* noEmit - We only use TypeScript for type checking. */
+        "noEmit": true,
+        /* Additional Options */
+        "strict": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true
+      }
+}

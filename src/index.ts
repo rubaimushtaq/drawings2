@@ -5,7 +5,10 @@
 
 import confetti from 'canvas-confetti';
 
-confetti.create(document.getElementById('canvas'), {
+let elementById = <HTMLCanvasElement>document.getElementById('canvas');
+
+confetti.create(elementById, {
   resize: true,
   useWorker: true,
-})({ particleCount: 200, spread: 200 });
+})({ particleCount: 2000, spread: 200 });
+

@@ -3,14 +3,16 @@
     "start": "snowpack dev",
     "build": "snowpack build",
     "test": "echo \"This template does not include a test runner by default.\" && exit 1",
-    "format": "prettier --write \"src/**/*.js\"",
-    "lint": "prettier --check \"src/**/*.js\""
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "prettier --check \"src/**/*.ts\""
   },
   "dependencies": {
     "canvas-confetti": "^1.2.0"
   },
   "devDependencies": {
+    "@types/canvas-confetti": "^1.0.0",
     "prettier": "^2.0.0",
-    "snowpack": "^2.5.0"
+    "snowpack": "^2.5.0",
+    "typescript": "^3.9.5"
   }
 }
