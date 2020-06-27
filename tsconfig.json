@@ -13,9 +13,7 @@
         "paths": { "*": ["web_modules/.types/*"] },
         "allowSyntheticDefaultImports": true,
         "importsNotUsedAsValues": "error",
-        /* noEmit - We only use TypeScript for type checking. */
         "noEmit": true,
-        /* Additional Options */
         "strict": true,
         "skipLibCheck": true,
         "forceConsistentCasingInFileNames": true,
